@@ -1,0 +1,17 @@
+@layer utilities {
+  /* Modern Glassmorphism Layer Blur Effect */
+  .glass-panel {
+    @apply bg-white/70 backdrop-blur-md border border-white/20 dark:bg-slate-900/70 dark:border-slate-800/40;
+  }
+  
+  /* Accent Ambient Glows for Highlight Cards */
+  .glow-blue {
+    box-shadow: 0 0 25px -5px rgba(59, 130, 246, 0.15);
+  }
+  
+  /* Linear Gradient Borders for Modern Cards */
+  .gradient-border {
+    background: linear-gradient(to right, #3b82f6, #6366f1);
+    padding: 1px;
+  }
+}
